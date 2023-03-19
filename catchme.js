@@ -16,7 +16,7 @@ window.addEventListener("resize", function() {
 
 
 box.addEventListener("mouseover", function() {
-     boxAttr = box.getBoundingClientRect();
+    boxAttr = box.getBoundingClientRect();
     var pos = getNewPosition(boxAttr.width, boxAttr.height);
     
     box.style.top = pos.y + "px";
